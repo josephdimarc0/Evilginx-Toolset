@@ -92,21 +92,21 @@ Let's assume "institution.com" (with no subdomain) is present in "example.domain
 
 Let's assume "secure.for.everyone.institution.com" (with various subdomains) is present in "example.domain.com" for all the mime types:
 
-https://secure.for.everyone.institution.com will become https://secure.for.everyone.example.com
-https://secure\.for\.everyone\.institution\.com will become https://secure\.for\.everyone\.example\.com
-https://secure\\.for\\.everyone\\.institution\\.com will become https://secure\\.for\\.everyone\\.example\\.com
-http://secure.for.everyone.institution.com will become http://secure.for.everyone.example.com
-http://secure\.for\.everyone\.institution\.com will become http://secure\.for\.everyone\.example\.com
-http://secure\\.for\\.everyone\\.institution\\.com will become http://secure\\.for\\.everyone\\.example\\.com
-https%3A%2F%2Fsecure.for.everyone.institution.com will become https%3A%2F%2Fsecure.for.everyone.example.com
-https%3A%2F%2Fsecure\\.for\\.everyone\\.institution\\.com will become https%3A%2F%2Fsecure\\.for\\.everyone\\.example\\.com
-https%3A%2F%2Fsecure\\\\.for\\\\.everyone\\\\.institution\\\\.com will become https%3A%2F%2Fsecure\\\\.for\\\\.everyone\\\\.example\\\\.com
-http%3A%2F%2Fsecure.for.everyone.institution.com will become http%3A%2F%2Fsecure.for.everyone.example.com
-http%3A%2F%2Fsecure\\.for\\.everyone\\.institution\\.com will become http%3A%2F%2Fsecure\\.for\\.everyone\\.example\\.com
-http%3A%2F%2Fsecure\\\\.for\\\\.everyone\\\\.institution\\\\.com will become http%3A%2F%2Fsecure\\\\.for\\\\.everyone\\\\.example\\\\.com
-institution.com will become example.com
-institution\\.com will become example\\.com
-institution\\\\.com will become example\\\\.com
+- https://secure.for.everyone.institution.com will become https://secure.for.everyone.example.com
+- https://secure\.for\.everyone\.institution\.com will become https://secure\.for\.everyone\.example\.com
+- https://secure\\.for\\.everyone\\.institution\\.com will become https://secure\\.for\\.everyone\\.example\\.com
+- http://secure.for.everyone.institution.com will become http://secure.for.everyone.example.com
+- http://secure\.for\.everyone\.institution\.com will become http://secure\.for\.everyone\.example\.com
+- http://secure\\.for\\.everyone\\.institution\\.com will become http://secure\\.for\\.everyone\\.example\\.com
+- https%3A%2F%2Fsecure.for.everyone.institution.com will become https%3A%2F%2Fsecure.for.everyone.example.com
+- https%3A%2F%2Fsecure\\.for\\.everyone\\.institution\\.com will become https%3A%2F%2Fsecure\\.for\\.everyone\\.example\\.com
+- https%3A%2F%2Fsecure\\\\.for\\\\.everyone\\\\.institution\\\\.com will become https%3A%2F%2Fsecure\\\\.for\\\\.everyone\\\\.example\\\\.com
+- http%3A%2F%2Fsecure.for.everyone.institution.com will become http%3A%2F%2Fsecure.for.everyone.example.com
+- http%3A%2F%2Fsecure\\.for\\.everyone\\.institution\\.com will become http%3A%2F%2Fsecure\\.for\\.everyone\\.example\\.com
+- http%3A%2F%2Fsecure\\\\.for\\\\.everyone\\\\.institution\\\\.com will become http%3A%2F%2Fsecure\\\\.for\\\\.everyone\\\\.example\\\\.com
+- institution.com will become example.com
+- institution\\.com will become example\\.com
+- institution\\\\.com will become example\\\\.com
 
 IMPORTANT!
 Regexp might not handle ccTLDs correctly.

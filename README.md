@@ -63,11 +63,11 @@ Let's assume "secure.institution.com" is present in "example.domain.com" for all
 - http://secure\.institution\.com will become http://secure\.example\.com
 - http://secure\\.institution\\.com will become http://secure\\.example\\.com
 - https%3A%2F%2Fsecure.institution.com will become https%3A%2F%2Fsecure.example.com
-- https%3A%2F%2Fsecure\.institution\.com will become https%3A%2F%2Fsecure\.example\.com
-- https%3A%2F%2Fsecure\\.institution\\.com will become https%3A%2F%2Fsecure\\.example\\.com
+- https%3A%2F%2Fsecure\\.institution\.com will become https%3A%2F%2Fsecure\\.example\\.com
+- https%3A%2F%2Fsecure\\\\.institution\\\\.com will become https%3A%2F%2Fsecure\\\\.example\\\\.com
 - http%3A%2F%2Fsecure.institution.com will become http%3A%2F%2Fsecure.example.com
-- http%3A%2F%2Fsecure\.institution\.com will become http%3A%2F%2Fsecure\.example\.com
-- http%3A%2F%2Fsecure\\.institution\\.com will become http%3A%2F%2Fsecure\\.example\\.com
+- http%3A%2F%2Fsecure\\.institution\.com will become http%3A%2F%2Fsecure\\.example\\.com
+- http%3A%2F%2Fsecure\\\\.institution\\\\.com will become http%3A%2F%2Fsecure\\\\.example\\\\.com
 - institution.com will become example.com
 - institution\.com will become example\.com
 - institution\\.com will become example\\.com
@@ -81,11 +81,11 @@ Let's assume "institution.com" (with no subdomain) is present in "example.domain
 - http://institution\.com will become http://example\.com
 - http://institution\\.com will become http://example\\.com
 - https%3A%2F%2Finstitution.com will become https%3A%2F%2Fexample.com
-- https%3A%2F%2Finstitution\.com will become https%3A%2F%2Fexample\.com
-- https%3A%2F%2Finstitution\\.com will become https%3A%2F%2Fexample\\.com
+- https%3A%2F%2Finstitution\\.com will become https%3A%2F%2Fexample\.com
+- https%3A%2F%2Finstitution\\\\.com will become https%3A%2F%2Fexample\\\\.com
 - http%3A%2F%2Finstitution.com will become http%3A%2F%2Fexample.com
-- http%3A%2F%2Finstitution\.com will become http%3A%2F%2Fexample\.com
-- http%3A%2F%2Finstitution\\.com will become http%3A%2F%2Fexample\\.com
+- http%3A%2F%2Finstitution\\.com will become http%3A%2F%2Fexample\.com
+- http%3A%2F%2Finstitution\\\\.com will become http%3A%2F%2Fexample\\\\.com
 - institution.com will become example.com
 - institution\.com will become example\.com
 - institution\\.com will become example\\.com
@@ -99,11 +99,11 @@ http://secure.for.everyone.institution.com will become http://secure.for.everyon
 http://secure\.for\.everyone\.institution\.com will become http://secure\.for\.everyone\.example\.com
 http://secure\\.for\\.everyone\\.institution\\.com will become http://secure\\.for\\.everyone\\.example\\.com
 https%3A%2F%2Fsecure.for.everyone.institution.com will become https%3A%2F%2Fsecure.for.everyone.example.com
-https%3A%2F%2Fsecure\.for\.everyone\.institution\.com will become https%3A%2F%2Fsecure\.for\.everyone\.example\.com
 https%3A%2F%2Fsecure\\.for\\.everyone\\.institution\\.com will become https%3A%2F%2Fsecure\\.for\\.everyone\\.example\\.com
+https%3A%2F%2Fsecure\\\\.for\\\\.everyone\\\\.institution\\\\.com will become https%3A%2F%2Fsecure\\\\.for\\\\.everyone\\\\.example\\\\.com
 http%3A%2F%2Fsecure.for.everyone.institution.com will become http%3A%2F%2Fsecure.for.everyone.example.com
-http%3A%2F%2Fsecure\.for\.everyone\.institution\.com will become http%3A%2F%2Fsecure\.for\.everyone\.example\.com
 http%3A%2F%2Fsecure\\.for\\.everyone\\.institution\\.com will become http%3A%2F%2Fsecure\\.for\\.everyone\\.example\\.com
+http%3A%2F%2Fsecure\\\\.for\\\\.everyone\\\\.institution\\\\.com will become http%3A%2F%2Fsecure\\\\.for\\\\.everyone\\\\.example\\\\.com
 institution.com will become example.com
 institution\.com will become example\.com
 institution\\.com will become example\\.com

@@ -1,6 +1,4 @@
-<p align="center">
-Evilginx Campaign Toolset
-</p>
+<h2 align="center"><b>Evilginx Campaign Toolset</b></h2>
 <div align="center">
   <img width="350" height="350" alt="image" src="https://github.com/user-attachments/assets/af5c1977-ac31-49fa-a947-bd40a41ea6aa" />
 </div>

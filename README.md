@@ -44,7 +44,7 @@ TLDs this tool will create subfilters/replacements for:
 
 Considerations:
 
-This tool might not ccTLDs correctly.
+This tool might not handle ccTLDs correctly.
 
 You should craft these subfilters with the same domains you created proxy hosts!
 

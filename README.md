@@ -115,7 +115,7 @@ Regexp might not handle ccTLDs correctly.
 CODE SCANNER
 --------------------------------------------
 
-code-scanner.ct.ws
+https://code-scanner.ct.ws
 
 Usage:
 

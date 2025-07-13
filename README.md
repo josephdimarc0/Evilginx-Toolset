@@ -16,7 +16,7 @@ This tool crafts you proxy hosts in this format:
 
   - {phish_sub: 'example', orig_sub: 'example', domain: 'domain.com', session: false, is_landing: false, auto_filter: false}
 
-Usage:
+**Usage:**
 
 Insert one domain per line; this tool creates a proxy host for each line!
 

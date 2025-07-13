@@ -81,10 +81,10 @@ Let's assume "institution.com" (with no subdomain) is present in "example.domain
 - http://institution\.com will become http://example\.com
 - http://institution\\.com will become http://example\\.com
 - https%3A%2F%2Finstitution.com will become https%3A%2F%2Fexample.com
-- https%3A%2F%2Finstitution\\.com will become https%3A%2F%2Fexample\.com
+- https%3A%2F%2Finstitution\\.com will become https%3A%2F%2Fexample\\.com
 - https%3A%2F%2Finstitution\\\\.com will become https%3A%2F%2Fexample\\\\.com
 - http%3A%2F%2Finstitution.com will become http%3A%2F%2Fexample.com
-- http%3A%2F%2Finstitution\\.com will become http%3A%2F%2Fexample\.com
+- http%3A%2F%2Finstitution\\.com will become http%3A%2F%2Fexample\\.com
 - http%3A%2F%2Finstitution\\\\.com will become http%3A%2F%2Fexample\\\\.com
 - institution.com will become example.com
 - institution\.com will become example\.com
